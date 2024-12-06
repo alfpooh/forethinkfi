@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0b1e38;
+  background-image: url('https://images.pexels.com/photos/2129796/pexels-photo-2129796.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  z-index: 1033;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 40px;
+  width: 400px;
+  background: linear-gradient(180deg, #fff 18.3%, #fff0), #ffffff4d;
+  box-shadow: 0 2px 5px 1px #0000004d;
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
+  border-radius: 16px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 150px;
+  background-color: transparent;
+}
+
+
+.login-container h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  background-color: #f1f3f5;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+.input-field img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.input-field input {
+  border: none;
+  background: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  color: #495057;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.help-link {
+  display: block;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.help-link:hover {
+  text-decoration: underline;
+}
