@@ -3,115 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Alf Bae - UI/UX Design Portfolio</title>
+    <title>Dr. Alf Bae - Bento Profile</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-    <main class="container">
-        <div class="grid">
-            <!-- Hero Section -->
-            <div class="card hero">
-                <img src="/image/my_image.jpg" alt="Dr. Alf Bae" class="profile-img">
-                <div class="hero-content">
-                    <h1>Dr. Alf Bae</h1>
-                    <p>UI/UX Design Doctor with +20 years of digital product experience</p>
-                    <div class="badges">
-                        <span class="badge">UI Design</span>
-                        <span class="badge">UX Research</span>
-                        <span class="badge">Product Design</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Contact Card -->
-            <div class="card contact">
-                <h2><i data-lucide="mail"></i> Contact</h2>
-                <div class="contact-links">
-                    <a href="#"><i data-lucide="linkedin"></i> LinkedIn <i data-lucide="arrow-up-right"></i></a>
-                    <a href="#"><i data-lucide="github"></i> Github <i data-lucide="arrow-up-right"></i></a>
-                    <a href="#"><i data-lucide="mail"></i> Email <i data-lucide="arrow-up-right"></i></a>
-                </div>
-            </div>
-
-            <!-- Experience Highlight -->
-            <div class="card experience">
-                <h2><i data-lucide="briefcase"></i> Experience Highlights</h2>
-                <div class="experience-grid">
-                    <div class="experience-item">
-                        <h3>Senior UX Designer</h3>
-                        <p>Tech Giant Corp • 2018-Present</p>
-                        <p>Led design system implementation for enterprise products</p>
-                    </div>
-                    <div class="experience-item">
-                        <h3>Design Director</h3>
-                        <p>Design Studio Inc • 2010-2018</p>
-                        <p>Managed team of 12 designers across global projects</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Skills -->
-            <div class="card skills">
-                <h2><i data-lucide="code"></i> Skills</h2>
-                <div class="badges">
-                    <span class="badge">Figma</span>
-                    <span class="badge">Sketch</span>
-                    <span class="badge">Adobe XD</span>
-                    <span class="badge">Prototyping</span>
-                    <span class="badge">User Research</span>
-                </div>
-            </div>
-
-            <!-- Publications -->
-            <div class="card publications">
-                <h2><i data-lucide="file-text"></i> Publications</h2>
-                <div class="publication-item">
-                    <h3>Design Systems at Scale</h3>
-                    <p>Published in UX Magazine, 2023</p>
-                </div>
-                <div class="publication-item">
-                    <h3>The Future of Mobile UX</h3>
-                    <p>International Design Journal, 2022</p>
-                </div>
-            </div>
-
-            <!-- Awards -->
-            <div class="card awards">
-                <h2><i data-lucide="trophy"></i> Awards</h2>
-                <div class="award-item">
-                    <i data-lucide="star"></i>
-                    <p>Best Digital Experience Award 2023</p>
-                </div>
-                <div class="award-item">
-                    <i data-lucide="star"></i>
-                    <p>UX Design Excellence 2022</p>
-                </div>
-            </div>
-
-            <!-- Featured Work -->
-            <div class="card featured-work">
-                <h2><i data-lucide="palette"></i> Featured Work</h2>
-                <div class="work-grid">
-                    <div class="work-item">
-                        <div class="work-image"></div>
-                        <h3>E-commerce Redesign</h3>
-                        <p>Increased conversion by 45%</p>
-                    </div>
-                    <div class="work-item">
-                        <div class="work-image"></div>
-                        <h3>Banking App</h3>
-                        <p>4.8 Star Rating on App Store</p>
-                    </div>
-                    <div class="work-item">
-                        <div class="work-image"></div>
-                        <h3>Healthcare Platform</h3>
-                        <p>Serving 1M+ patients</p>
-                    </div>
-                </div>
+    <div class="bento-container">
+        <!-- Profile Section -->
+        <div class="bento-card profile">
+            <img src="path/to/profile-image.jpg" alt="Dr. Alf Bae" class="profile-img">
+            <h1>Dr. Alf Bae</h1>
+            <p>UX Strategist | AI Innovator | Design Researcher</p>
+            <div class="badges">
+                <span class="badge">UI Design</span>
+                <span class="badge">Generative AI</span>
+                <span class="badge">Product-Service Systems</span>
             </div>
         </div>
-    </main>
+
+        <!-- Links Section -->
+        <div class="bento-card links">
+            <h2>Contact & Links</h2>
+            <a href="https://www.linkedin.com/in/alfbae/" target="_blank"><i data-lucide="linkedin"></i> LinkedIn</a>
+            <a href="mailto:alfpooh@gmail.com"><i data-lucide="mail"></i> Email</a>
+            <a href="https://bento.me/alfbae" target="_blank"><i data-lucide="link"></i> More Works</a>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="bento-card experience">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Lead UX Designer</strong> - QPR Software OYJ (2021 - Present)</li>
+                <li><strong>CEO & Co-Founder</strong> - Forethink Oy (2018 - 2021)</li>
+                <li><strong>Principal Designer</strong> - Microsoft & Nokia (2011 - 2015)</li>
+            </ul>
+        </div>
+
+        <!-- Publications Section -->
+        <div class="bento-card publications">
+            <h2>Publications</h2>
+            <ul>
+                <li><a href="https://medium.com/p/3978b16a1fd9" target="_blank">Design with Generative AI</a></li>
+                <li><a href="https://bit.ly/AlfB2CWorkSampleCurationBrowser" target="_blank">Content Browser UX</a></li>
+                <li>Spiral Donut Content System - U.S. Patent</li>
+            </ul>
+        </div>
+
+        <!-- Featured Work -->
+        <div class="bento-card work">
+            <h2>Featured Work</h2>
+            <div class="work-item">
+                <h3>QPR ProcessAnalyzer</h3>
+                <p>Generative AI-Powered Predictive Analytics UX</p>
+            </div>
+            <div class="work-item">
+                <h3>JustBrowse App</h3>
+                <p>Innovative Mobile eCommerce Solution</p>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="bento-card skills">
+            <h2>Skills</h2>
+            <div class="badges">
+                <span class="badge">Figma</span>
+                <span class="badge">Adobe XD</span>
+                <span class="badge">AI Integration</span>
+                <span class="badge">Workshop Facilitation</span>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
