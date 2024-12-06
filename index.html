@@ -1,30 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="login-container">
-      <div class="logo">
-        <img src="https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png" alt="CompanyLogo" />
-      </div>
-      <h2>LOG IN TO YOUR ACCOUNT</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Alf Bae - UI/UX Design Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <main class="container">
+        <div class="grid">
+            <!-- Hero Section -->
+            <div class="card hero">
+                <img src="/배동훈 Donghoon Bae Alf Profile bk removed.png" alt="Dr. Alf Bae" class="profile-img">
+                <div class="hero-content">
+                    <h1>Dr. Alf Bae</h1>
+                    <p>UI/UX Design Doctor with +20 years of digital product experience</p>
+                    <div class="badges">
+                        <span class="badge">UI Design</span>
+                        <span class="badge">UX Research</span>
+                        <span class="badge">Product Design</span>
+                    </div>
+                </div>
+            </div>
 
-      <div class="input-field">
-        <img src="https://c.animaapp.com/B2b4mvm5/img/icon-7.svg" alt="user-icon" />
-        <input type="text" placeholder="Email or ID" />
-      </div>
+            <!-- Contact Card -->
+            <div class="card contact">
+                <h2><i data-lucide="mail"></i> Contact</h2>
+                <div class="contact-links">
+                    <a href="#"><i data-lucide="linkedin"></i> LinkedIn <i data-lucide="arrow-up-right"></i></a>
+                    <a href="#"><i data-lucide="github"></i> Github <i data-lucide="arrow-up-right"></i></a>
+                    <a href="#"><i data-lucide="mail"></i> Email <i data-lucide="arrow-up-right"></i></a>
+                </div>
+            </div>
 
-      <div class="input-field">
-        <img src="https://c.animaapp.com/B2b4mvm5/img/icon-9.svg" alt="password-icon" />
-        <input type="password" placeholder="Password" />
-      </div>
+            <!-- Experience Highlight -->
+            <div class="card experience">
+                <h2><i data-lucide="briefcase"></i> Experience Highlights</h2>
+                <div class="experience-grid">
+                    <div class="experience-item">
+                        <h3>Senior UX Designer</h3>
+                        <p>Tech Giant Corp • 2018-Present</p>
+                        <p>Led design system implementation for enterprise products</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Design Director</h3>
+                        <p>Design Studio Inc • 2010-2018</p>
+                        <p>Managed team of 12 designers across global projects</p>
+                    </div>
+                </div>
+            </div>
 
-      <button class="login-button">LOG IN</button>
-      <a href="#" class="help-link">Need help?</a>
-    </div>
-  </body>
+            <!-- Skills -->
+            <div class="card skills">
+                <h2><i data-lucide="code"></i> Skills</h2>
+                <div class="badges">
+                    <span class="badge">Figma</span>
+                    <span class="badge">Sketch</span>
+                    <span class="badge">Adobe XD</span>
+                    <span class="badge">Prototyping</span>
+                    <span class="badge">User Research</span>
+                </div>
+            </div>
+
+            <!-- Publications -->
+            <div class="card publications">
+                <h2><i data-lucide="file-text"></i> Publications</h2>
+                <div class="publication-item">
+                    <h3>Design Systems at Scale</h3>
+                    <p>Published in UX Magazine, 2023</p>
+                </div>
+                <div class="publication-item">
+                    <h3>The Future of Mobile UX</h3>
+                    <p>International Design Journal, 2022</p>
+                </div>
+            </div>
+
+            <!-- Awards -->
+            <div class="card awards">
+                <h2><i data-lucide="trophy"></i> Awards</h2>
+                <div class="award-item">
+                    <i data-lucide="star"></i>
+                    <p>Best Digital Experience Award 2023</p>
+                </div>
+                <div class="award-item">
+                    <i data-lucide="star"></i>
+                    <p>UX Design Excellence 2022</p>
+                </div>
+            </div>
+
+            <!-- Featured Work -->
+            <div class="card featured-work">
+                <h2><i data-lucide="palette"></i> Featured Work</h2>
+                <div class="work-grid">
+                    <div class="work-item">
+                        <div class="work-image"></div>
+                        <h3>E-commerce Redesign</h3>
+                        <p>Increased conversion by 45%</p>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-image"></div>
+                        <h3>Banking App</h3>
+                        <p>4.8 Star Rating on App Store</p>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-image"></div>
+                        <h3>Healthcare Platform</h3>
+                        <p>Serving 1M+ patients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
 </html>
